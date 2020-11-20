@@ -1,0 +1,26 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: c0c9518a-cb2a-4af7-bfa4-fda2d4247919
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: 226778c3-5a3f-4257-a6ba-5ce257265700
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: f2e8d79e-5615-4331-af78-d0acc30e524c
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: Material_MR
+        Item2: 05a3b8ed-d718-4fd0-ac19-0e67837387d4
+    Nodes:
+      - node_damagedHelmet_-6514
+SwapWindingOrder: false

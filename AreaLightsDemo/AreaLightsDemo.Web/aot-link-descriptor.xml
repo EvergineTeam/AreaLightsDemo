@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<linker>
+  <assembly fullname="AreaLightsDemo" />
+  <assembly fullname="AreaLightsDemo.Web" />
+
+  <assembly fullname="WaveEngine.Framework" />
+  <assembly fullname="WaveEngine.Platform" />
+  <assembly fullname="WaveEngine.Common" />
+  <assembly fullname="WaveEngine.Components" />
+  <assembly fullname="WaveEngine.Mathematics" />
+  <assembly fullname="WaveEngine.Bindings.OpenGL" />
+  <assembly fullname="WaveEngine.OpenGL" />
+  <assembly fullname="WaveEngine.Web" />
+  <assembly fullname="WaveEngine.Yaml" />
+  <assembly fullname="WaveEngine.HLSLEverywhere" />
+</linker>

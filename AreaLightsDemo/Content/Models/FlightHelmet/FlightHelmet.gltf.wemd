@@ -1,0 +1,41 @@
+!WaveEngine.Assets.Exporters.ModelMetaFile,WaveEngine.Assets
+Id: baea5819-cf90-45c2-b560-392f9941fd1d
+Clips: []
+DefaultProfile:
+  ExcludeAsset: false
+  Name: null
+  Platform: Undefined
+ExportAnimations: true
+ExportAsRaw: false
+GenerateTangentSpace: true
+Profiles: {}
+Source:
+  Header:
+    Id: 4a7bd2da-5257-404a-835e-e4465f43ff4c
+    IsCompressed: true
+  LastModified: 0001-01-01T00:00:00.0000000
+  ModelInfo:
+    Id: b653eb8d-874d-4f9a-810e-89b8f34a72ee
+    AnimationTracks: []
+    EmbeddedResources: null
+    Materials:
+      - Item1: HoseMat
+        Item2: 924ce94f-2ce8-4176-9609-6f57b088de26
+      - Item1: RubberWoodMat
+        Item2: 761063bd-be46-4b3f-9ff7-76fa6fb8c953
+      - Item1: GlassPlasticMat
+        Item2: 395209c3-6603-4c1e-948b-96fd87a71693
+      - Item1: MetalPartsMat
+        Item2: a56fa624-0eba-4dc4-8038-6cb855f72a9d
+      - Item1: LeatherPartsMat
+        Item2: 751101f3-c35b-47ca-84e6-371b284d6bad
+      - Item1: LensesMat
+        Item2: 3fbec4a7-fc56-43d7-be21-716cf371455c
+    Nodes:
+      - Hose_low
+      - RubberWood_low
+      - GlassPlastic_low
+      - MetalParts_low
+      - LeatherParts_low
+      - Lenses_low
+SwapWindingOrder: false

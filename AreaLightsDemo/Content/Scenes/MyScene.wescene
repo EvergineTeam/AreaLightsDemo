@@ -1,0 +1,1121 @@
+!WaveEngine.Framework.Assets.AssetSources.Entities.SceneModel,WaveEngine.Framework
+Items:
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: EnvironmentManager
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 7cf652b5-0d2e-4a05-ac0b-02015791fb99
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.999729156
+          Y: 1.580235
+          Z: 0.843612909
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.EnvironmentComponent,WaveEngine.Framework
+        Id: 94fb114a-c4d8-4674-bd4d-409893d8ab53
+        IntensityMultiplier: 1.0
+        IsEnabled: true
+        ReflectionProbe: cb4c9738-03a0-494f-a839-20a22581fb59
+    Children: []
+    Id: 3aea6832-ccae-4bc6-9bb7-64229c7c2de0
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Camera
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 809f1d2c-2305-4916-acfe-f81399ffb235
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.957771003
+          X: -0.0793885738
+          Y: -0.275410712
+          Z: -0.0228286646
+        LocalPosition:
+          X: -1.64581764
+          Y: 0.496199548
+          Z: 2.72847557
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
+        Id: 07d3e21d-cd4b-412f-88a6-1331d8afa583
+        IsEnabled: true
+        MaxPitch: 1.49225616
+        MouseSensibility: 0.0299999993
+        Speed: 5.0
+        TouchMoveAndOrientationRatio: 0.5
+        TouchSensibility: 1.0
+        UpdateOrder: 0.5
+      - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
+        Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
+        Aperture: 1.0
+        AspectRatio: 1.60084033
+        AutoExposureEnabled: false
+        CameraOrder: 0.0
+        ClearDepth: 0.99000001
+        ClearFlags: All
+        ClearStencil: 0
+        Compensation: 0.0
+        DepthRange:
+          MaxDepth: 1.0
+          MinDepth: 0.0
+        DisplayTag: null
+        DisplayTagDirty: true
+        Exposure: 2.35901475
+        FarPlane: 1000.0
+        FieldOfView: 0.785398185
+        FieldOfViewAxis: Vertical
+        FocalDistance: 1.0
+        FocalLength: 50.0
+        FrustumCullingEnabled: true
+        HDREnabled: true
+        IsEnabled: true
+        LayerMaskDefaultValue: true
+        LinearBackgroundColor:
+          A: 1.0
+          B: 0.0
+          G: 0.0
+          R: 0.0
+        LogLuminanceRange: 12.0
+        MinLogLuminance: -10.0
+        NearPlane: 0.100000001
+        ScreenViewport:
+          Height: 238.0
+          MaxDepth: 1.0
+          MinDepth: 0.0
+          Width: 381.0
+          X: 0.0
+          Y: 0.0
+        Sensitivity: 100.0
+        SensorSize:
+          X: 36.0
+          Y: 24.0
+        ShutterSpeed: 1.20000005
+        TAU: 1.10000002
+        TagFilter: null
+        UpVector:
+          X: 0.0
+          Y: 1.0
+          Z: 0.0
+        UsePhysicalParameters: false
+    Children: []
+    Id: 9841b6b3-9c09-4b60-b442-a5c63257ee02
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: FlightHelmet_gltf
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: da0ad18a-cb07-4e1f-a6fe-ad197ec58b4a
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.60032326
+          Y: -0.199963972
+          Z: 0.0141258212
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: Hose_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: d1257d7a-425d-4f3c-970f-2189e014337a
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 9196df5e-3a41-4d40-ba06-ffa6052237a9
+            AsignedTo: HoseMat
+            IsEnabled: true
+            Material: 924ce94f-2ce8-4176-9609-6f57b088de26
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: 15050a95-fbd2-4784-8a08-59f556e09c4d
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: Hose_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: 4e429f70-dcad-4423-8cc8-1b901183a250
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: 97a31c12-fa84-434b-bb02-da69d757ff2e
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: RubberWood_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 180e1b4d-9b0c-4236-90f4-b62886fd0461
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 9aed97b9-ac22-4756-994a-76db42768f2f
+            AsignedTo: RubberWoodMat
+            IsEnabled: true
+            Material: 761063bd-be46-4b3f-9ff7-76fa6fb8c953
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: 8d4766fe-13c1-419c-b72e-12601f884268
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: RubberWood_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: e5d63a85-1cb5-45dd-8179-97bfbf62c8d3
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: 7b75f330-1d28-469f-b2d8-15700dd856e7
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: GlassPlastic_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 34c06a62-038e-4479-9a4e-82fb4326808b
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 30d01578-2561-4b4a-990e-69f10185397f
+            AsignedTo: GlassPlasticMat
+            IsEnabled: true
+            Material: 395209c3-6603-4c1e-948b-96fd87a71693
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: d1e67313-3500-48e5-9672-35141abb6e82
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: GlassPlastic_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: abf9dd6c-3b2a-41f7-b8eb-7c76c113a23d
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: c0dec907-3135-450c-a2fc-c46fbd6ec5db
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: MetalParts_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 5320c275-79cc-440d-b9b7-94db761c396e
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 7a7b2433-2e30-45e9-b289-90d90e3e3222
+            AsignedTo: MetalPartsMat
+            IsEnabled: true
+            Material: a56fa624-0eba-4dc4-8038-6cb855f72a9d
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: de4b847a-d08c-4a4f-9081-5ea035767dd6
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: MetalParts_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: 64b33768-7e6e-41ff-b030-80c5ad130240
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: 8dc46974-78ce-4655-8dcc-4c3fecc3a149
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: LeatherParts_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 6828da41-022c-48d8-9739-86a1a321a6ff
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 643ea006-eb58-4543-b9bf-7d94814cec6b
+            AsignedTo: LeatherPartsMat
+            IsEnabled: true
+            Material: 751101f3-c35b-47ca-84e6-371b284d6bad
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: 94cb3b61-40f5-48c8-b689-26f2c2726729
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: LeatherParts_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: f9a80a9d-5027-4d7a-85d0-90e7ab202cfc
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: c6123c81-85fb-4a9a-a153-db19e4559403
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: Lenses_low
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: bedadba2-5a91-43b7-acd1-8f93cb9e1b1f
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 13d5fcd2-d0bd-4007-a8e3-355cbd3a98c4
+            AsignedTo: LensesMat
+            IsEnabled: true
+            Material: 3fbec4a7-fc56-43d7-be21-716cf371455c
+          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+            Id: 0e4c271e-10e9-47c8-a2ba-1ea002b1826c
+            IsEnabled: true
+            Model: baea5819-cf90-45c2-b560-392f9941fd1d
+            ModelMeshName: Lenses_low
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: 4e9b103e-e8d0-47f8-93ac-852f0223e42c
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: 90c9c128-90e6-40e2-a4e5-816cb8558856
+    Id: bb43da06-2bbe-4ac9-b260-4dae2e077b79
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: DamagedHelmet_gltf
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 48940679-4275-4255-889c-196f46e7789f
+        IsEnabled: true
+        LocalOrientation:
+          W: -0.706603348
+          X: -0.706603408
+          Y: 0.0266779549
+          Z: -0.0266779568
+        LocalPosition:
+          X: -0.815131187
+          Y: 0.218235597
+          Z: -0.0196635574
+        LocalScale:
+          X: 0.200000003
+          Y: 0.200000003
+          Z: 0.200000003
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 1b32a320-68e7-4099-b074-2f54a0ef0b51
+        AsignedTo: Material_MR
+        IsEnabled: true
+        Material: 05a3b8ed-d718-4fd0-ac19-0e67837387d4
+      - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+        Id: 40e9a4d1-e069-4a9e-84c3-6a0319631078
+        IsEnabled: true
+        Model: c0c9518a-cb2a-4af7-bfa4-fda2d4247919
+        ModelMeshName: mesh_helmet_LP_13930damagedHelmet
+      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+        Id: f3ec2974-39b0-4504-a625-8a928e2fbdd1
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+    Children: []
+    Id: 81274a15-8692-4a98-897f-c726827547ed
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Wall
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 691e8829-8e79-4c63-84f3-4ccc618ddabf
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.707106829
+          X: 0.707106709
+          Y: -2.57585521E-06
+          Z: 2.57585566E-06
+        LocalPosition:
+          X: 0.0
+          Y: 0.300000012
+          Z: -0.5
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 35947136-08d1-4173-ad16-aa492ea47a67
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 7935a99a-afa8-422c-9c03-279b4c1e8d5c
+      - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+        Id: f3b5ea1a-6538-4f15-b657-f378155fbb08
+        Height: 1.0
+        InitialU: 0.0
+        InitialV: 0.0
+        IsEnabled: true
+        Model: 00000000-0000-0000-0000-000000000000
+        ModelMeshName: plane_primitive
+        Normal:
+          X: 0.0
+          Y: 1.0
+          Z: 0.0
+        TwoSides: false
+        UTile: 5.0
+        UVHorizontalFlip: false
+        UVVerticalFlip: false
+        Width: 5.0
+        YTile: 1.0
+      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+        Id: 492289d7-5e6c-4aec-a766-9d3dbb4eca65
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+    Children: []
+    Id: ae9efeae-fcab-4b13-bf5f-d0bbaa59d3a1
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: Floor
+    Tag: Skybox
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 14c26733-c172-4fc1-b0ca-416326fe409f
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 1.35715112E-07
+          Y: -0.200000003
+          Z: 1.5
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: a02b872d-fd12-400d-86d9-91a19ceacad1
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 4217193a-62da-4707-b230-82cde5556fcd
+      - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+        Id: 7de49a08-dc95-4525-9ad3-3ef7bd8d7632
+        Height: 4.0
+        InitialU: 0.0
+        InitialV: 0.0
+        IsEnabled: true
+        Model: 00000000-0000-0000-0000-000000000000
+        ModelMeshName: plane_primitive
+        Normal:
+          X: 0.0
+          Y: 1.0
+          Z: 0.0
+        TwoSides: false
+        UTile: 8.0
+        UVHorizontalFlip: false
+        UVVerticalFlip: false
+        Width: 5.0
+        YTile: 7.5
+      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+        Id: 823febd8-ccda-41f9-aa4c-9c870d35e8db
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        OrderBias: 0
+    Children: []
+    Id: 000f046b-bb30-46bf-bc02-74401cecc7b5
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: SphereLightPivot
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 0da2c4cf-3d52-484f-b9e2-bbf7ecf7af80
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.258191526
+          Y: 0.119508505
+          Z: 1.48701453
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.Spinner,WaveEngine.Components
+        Id: 249204ae-6ada-4631-87b3-e34d15c6df1f
+        AxisIncrease:
+          X: 0.0
+          Y: 1.0
+          Z: 0.0
+        IsEnabled: true
+        UpdateOrder: 0.5
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: photometricSphereAreaLight
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 94fcd0d1-4e8d-4abc-878f-6f604211fc77
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.480000466
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PhotometricSphereAreaLight,WaveEngine.Framework
+            Id: b518531b-f3c2-4f74-a1f8-285259a7096d
+            Color:
+              A: 255
+              B: 162
+              G: 207
+              R: 255
+            ColorByTemperature: true
+            Intensity: 11.1408453
+            IsEnabled: true
+            LightRange: 6.0
+            LinearColor:
+              A: 1.0
+              B: 0.366719306
+              G: 0.634855688
+              R: 1.0
+            LuminousPower: 140.0
+            Radius: 0.100000001
+            Temperature: 4000.0
+          - !AreaLightsDemo.Features.Lights.SphereLightVisual,AreaLightsDemo
+            Id: 7fc7364e-f584-4937-9499-86147ff83ad7
+            IsEnabled: true
+            UpdateOrder: 0.5
+        Children:
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: sphere
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: ffa42df7-114a-4ca5-babb-351d2dbbd07b
+                IsEnabled: true
+                LocalOrientation:
+                  W: 1.0
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalPosition:
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalScale:
+                  X: 0.200000003
+                  Y: 0.200000003
+                  Z: 0.200000003
+              - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+                Id: f757badb-c889-4e09-820e-8657836159e8
+                AsignedTo: Default
+                IsEnabled: true
+                Material: 649d2040-0eab-49e6-9ecb-e8058439033a
+              - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
+                Id: 32b70e12-7976-4781-b629-0240e9b2ec0f
+                Diameter: 1.0
+                IsEnabled: true
+                Model: 00000000-0000-0000-0000-000000000000
+                ModelMeshName: sphere_primitive
+                Tessellation: 16
+                UVHorizontalFlip: false
+                UVVerticalFlip: false
+              - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+                Id: a4efeea5-c59c-453e-91a4-fa409e4359fd
+                DebugBoundingbox: true
+                IsCullingEnabled: true
+                IsEnabled: true
+                OrderBias: 0
+            Children: []
+            Id: 41bf11e8-514c-4516-8d08-ff0a3ed7e3d7
+        Id: 47f71a62-64ce-4827-8559-4ed68ea84e5e
+    Id: 5f4ea58c-882a-4e3a-ae25-6ef3634d1b56
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: photometricDiskAreaLight
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 3b9fae44-1f98-4691-a6a5-9b1da79eadef
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.679695606
+          X: 0.378239602
+          Y: 0.601409376
+          Z: -0.182360768
+        LocalPosition:
+          X: -1.53684068
+          Y: 0.431526005
+          Z: -0.201413438
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Framework.Graphics.PhotometricDiskAreaLight,WaveEngine.Framework
+        Id: c90be14c-0f02-4eee-87c5-f85f349c9297
+        Color:
+          A: 255
+          B: 255
+          G: 187
+          R: 154
+        ColorByTemperature: true
+        Intensity: 4.77464819
+        IsEnabled: true
+        LightRange: 2.0
+        LinearColor:
+          A: 1.0
+          B: 1.0
+          G: 0.502752066
+          R: 0.329113156
+        LuminousPower: 60.0
+        Radius: 0.280000031
+        Temperature: 50000.0
+      - !AreaLightsDemo.Features.Lights.DiskLightVisual,AreaLightsDemo
+        Id: fe868f48-52ce-49aa-ac20-bbd7886f5d82
+        IsEnabled: true
+        UpdateOrder: 0.5
+      - !AreaLightsDemo.Features.Behaviors.OffsetLoopBehavior,AreaLightsDemo
+        Id: ca24f5e6-b6ed-4c8b-a6cb-82283b315fb6
+        IsEnabled: true
+        Offset:
+          X: 0.25
+          Y: 0.0
+          Z: 0.0
+        Period: 3.0
+        UpdateOrder: 0.5
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: cylinder
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: b0656fd8-774c-4701-a981-b35132c4cb3a
+            IsEnabled: true
+            LocalOrientation:
+              W: 0.707106829
+              X: 0.707106709
+              Y: 0.0
+              Z: -0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 0.560000062
+              Y: 0.560000062
+              Z: 0.560000062
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: 80c6a2fe-7ebd-4f56-ae11-7c1ff2d0ad10
+            AsignedTo: Default
+            IsEnabled: true
+            Material: 1378be08-60f4-49ea-b77a-b28317074b22
+          - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
+            Id: 8b09755a-2d80-4197-a517-b859300b5c22
+            Diameter: 1.0
+            Height: 0.0
+            IsEnabled: true
+            Model: 00000000-0000-0000-0000-000000000000
+            ModelMeshName: cylinder_primitive
+            Tessellation: 32
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: 789739fc-4a59-4cca-8286-b8b3c8a0c71d
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: edfabe5e-512a-449e-bb47-dd5bbf2422e1
+    Id: 9f27b851-674d-4d6a-851f-5afdc2b63565
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: photometricRectangleAreaLight
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 3ce54815-fdcd-4b48-9be6-bcc9e035c00c
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.706382334
+          X: 0.0
+          Y: -0.707830489
+          Z: 0.0
+        LocalPosition:
+          X: 1.19527721
+          Y: 0.349999994
+          Z: 0.000179588795
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Framework.Graphics.PhotometricRectangleAreaLight,WaveEngine.Framework
+        Id: e0fe2025-d1e2-4bcd-800a-e3d454d2ee03
+        Color:
+          A: 255
+          B: 77
+          G: 226
+          R: 116
+        ColorByTemperature: false
+        Height: 1.0
+        Intensity: 4.77464819
+        IsEnabled: true
+        LightRange: 20.0
+        LinearColor:
+          A: 1.0
+          B: 0.0717614517
+          G: 0.7667436
+          R: 0.176774323
+        LuminousPower: 60.0
+        Temperature: 6500.0
+        Width: 0.299999952
+      - !AreaLightsDemo.Features.Lights.RectangleLightVisual,AreaLightsDemo
+        Id: a3439058-b761-4881-ae6a-220b77c82730
+        IsEnabled: true
+        UpdateOrder: 0.5
+      - !AreaLightsDemo.Features.Behaviors.OffsetLoopBehavior,AreaLightsDemo
+        Id: 10ed2fa6-873f-489e-81d3-325360c2f9e3
+        IsEnabled: true
+        Offset:
+          X: 0.0
+          Y: 0.0
+          Z: 0.200000003
+        Period: 3.0
+        UpdateOrder: 0.5
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: plane
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 85a1a3ba-5d1e-4f88-91d8-71520f0fa8fd
+            IsEnabled: true
+            LocalOrientation:
+              W: 1.0
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 0.299999952
+              Y: 1.0
+              Z: 0.0
+          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+            Id: cc15df6a-86a9-4502-ade0-f958606e24b2
+            AsignedTo: Default
+            IsEnabled: true
+            Material: c868e70c-097d-4a29-91ca-725b2b17d7fd
+          - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+            Id: 0421bd41-5430-4dcc-bdbc-bff40ad865cc
+            Height: 1.0
+            InitialU: 0.0
+            InitialV: 0.0
+            IsEnabled: true
+            Model: 00000000-0000-0000-0000-000000000000
+            ModelMeshName: plane_primitive
+            Normal:
+              X: -0.0
+              Y: -0.0
+              Z: -1.0
+            TwoSides: false
+            UTile: 1.0
+            UVHorizontalFlip: false
+            UVVerticalFlip: false
+            Width: 1.0
+            YTile: 1.0
+          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+            Id: 61d1d735-a448-4e95-8127-603df628258f
+            DebugBoundingbox: true
+            IsCullingEnabled: true
+            IsEnabled: true
+            OrderBias: 0
+        Children: []
+        Id: 27c62836-8039-47f5-ad2f-5361ebdbbb06
+    Id: 7b803642-646c-4a46-9d17-bd3406abc293
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: TubePivot
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 287d7bd1-ba77-4c55-814b-1cf34f182063
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: -0.0986931473
+          Y: 0.236302435
+          Z: -0.0978665724
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.Spinner,WaveEngine.Components
+        Id: 4d2e84e8-1071-4860-954f-0a77f3941592
+        AxisIncrease:
+          X: 0.0
+          Y: 2.0
+          Z: 0.0
+        IsEnabled: true
+        UpdateOrder: 0.5
+    Children:
+      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+        Name: photometricTubeAreaLight
+        Tag: null
+        IsEnabled: true
+        IsStatic: false
+        Components:
+          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+            Id: 2eeeb694-78a5-47c4-8c0b-5b1ef2fd8b6b
+            IsEnabled: true
+            LocalOrientation:
+              W: 0.90692836
+              X: 0.421284944
+              Y: -1.50663254E-07
+              Z: 0.0
+            LocalPosition:
+              X: 0.0
+              Y: 0.0
+              Z: 0.0
+            LocalScale:
+              X: 1.0
+              Y: 1.0
+              Z: 1.0
+          - !WaveEngine.Framework.Graphics.PhotometricTubeAreaLight,WaveEngine.Framework
+            Id: 310ec9fc-f22c-4a0b-be1d-2437caef0013
+            Color:
+              A: 255
+              B: 0
+              G: 107
+              R: 255
+            ColorByTemperature: true
+            Intensity: 5.57042265
+            IsEnabled: true
+            Length: 1.0
+            LightRange: 2.0
+            LinearColor:
+              A: 1.0
+              B: 0.0
+              G: 0.14693816
+              R: 1.0
+            LuminousPower: 70.0
+            Radius: 0.0400000289
+            Temperature: 1500.0
+          - !AreaLightsDemo.Features.Lights.TubeLightVisual,AreaLightsDemo
+            Id: ff3e742d-b620-40a5-8368-851da2e1f230
+            IsEnabled: true
+            UpdateOrder: 0.5
+        Children:
+          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+            Name: cylinder
+            Tag: null
+            IsEnabled: true
+            IsStatic: false
+            Components:
+              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+                Id: 198c02a6-1d94-4a19-a57c-79506815d804
+                IsEnabled: true
+                LocalOrientation:
+                  W: 0.707106829
+                  X: 0.707106709
+                  Y: 0.0
+                  Z: -0.0
+                LocalPosition:
+                  X: 0.0
+                  Y: 0.0
+                  Z: 0.0
+                LocalScale:
+                  X: 0.0800000578
+                  Y: 1.0
+                  Z: 0.0800000578
+              - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+                Id: 9bc31f7a-feef-4f3b-bb3a-b5c66e23b8fd
+                AsignedTo: Default
+                IsEnabled: true
+                Material: 479d5a01-dbd5-4296-aadf-93d71aaf7d4e
+              - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
+                Id: 0874cb4a-b471-4939-aad2-56350ccf5cd4
+                Diameter: 1.0
+                Height: 1.0
+                IsEnabled: true
+                Model: 00000000-0000-0000-0000-000000000000
+                ModelMeshName: cylinder_primitive
+                Tessellation: 16
+              - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+                Id: 700c4870-abaa-4e02-bcc7-e803b7c9a82d
+                DebugBoundingbox: true
+                IsCullingEnabled: true
+                IsEnabled: true
+                OrderBias: 0
+            Children: []
+            Id: a6ee32e0-2faf-4f80-b4c3-c465ee4b843b
+        Id: b4c4132c-e5c3-42ec-a62f-cd6581e0e232
+    Id: 6992edfd-c84f-4fe3-a3c8-23e03af0d47b
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: PostProcessingVolume
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 96920144-043f-4bea-92e2-ae44c853441c
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 1.73066163
+          Y: -0.603858531
+          Z: -1.3887558
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
+        Id: efede173-d986-4d26-84b3-0fc899d1d048
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        IsGlobal: true
+        LayerOrder: 10
+        OrderBias: 0
+        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
+    Children: []
+    Id: 9e93c301-c60a-4e06-b0a5-6d42ea2190cf
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: SkyAtmosphere
+    Tag: Skybox
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 7d9e681b-b251-4316-9d60-20ed82d4490f
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+        Id: 0dd747b2-f0c4-42b6-b618-35d41ba6cb06
+        AsignedTo: Default
+        IsEnabled: true
+        Material: 41a94c1e-01e0-4a07-9dc4-bdb9534ef34d
+      - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
+        Id: eba4ddbe-6bb7-4616-b357-fcaffd4e4b0f
+        Diameter: 1.0
+        IsEnabled: true
+        Model: 00000000-0000-0000-0000-000000000000
+        ModelMeshName: sphere_primitive
+        Tessellation: 32
+        UVHorizontalFlip: false
+        UVVerticalFlip: false
+      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+        Id: 7139090d-ce99-46cf-96e3-b09627ec293e
+        DebugBoundingbox: true
+        IsCullingEnabled: false
+        IsEnabled: true
+        OrderBias: 0
+      - !WaveEngine.Components.Environment.AtmosphereController,WaveEngine.Components
+        Id: 6a9dadf8-48d5-40e6-8d39-412511305d6f
+        AtmosphereRadiusInKm: 6471.0
+        IsEnabled: true
+        MiePreferredScatteringDirection: 0.758000016
+        MieScaleHeight: 1200.0
+        MieScatteringCoefficient: 21.0
+        ModifySunColor: true
+        PlanetRadiusInKm: 6371.0
+        RayleighScaleHeight: 8000.0
+        RayleighScatteringCoefficient:
+          X: 5.5
+          Y: 13.0
+          Z: 22.3999996
+        SunDiskEnabled: true
+        SunDiskSize: 0.0199999996
+        SunIntensity: 22.0
+        UpdateOrder: 0.5
+    Children: []
+    Id: c0b08996-71ab-4348-8234-bfd6841ba1b1
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: SunLight
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: eda6964d-24f1-457b-8e28-677b388a9813
+        IsEnabled: true
+        LocalOrientation:
+          W: 0.999706447
+          X: 0.0200355258
+          Y: -0.0136220418
+          Z: 0.000273004815
+        LocalPosition:
+          X: 1.9328022
+          Y: -0.0572650433
+          Z: -0.445731163
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Framework.Graphics.PhotometricDirectionalLight,WaveEngine.Framework
+        Id: 1bdf54a8-e076-407d-8132-810084a009de
+        Color:
+          A: 0
+          B: 0
+          G: 0
+          R: 0
+        ColorByTemperature: true
+        Illuminance: 3.0
+        Intensity: 3.0
+        IsEnabled: true
+        LinearColor:
+          A: 0.0
+          B: 0.0
+          G: 0.0
+          R: 0.0
+        Temperature: 6500.0
+      - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
+        Id: 497a414d-d64f-4fef-b31d-c9ecaa7beb66
+        IsEnabled: true
+    Children: []
+    Id: 2e497f0a-16e9-4dee-a4bc-d2e728b33b31
+Managers: []
