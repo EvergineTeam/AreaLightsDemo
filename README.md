@@ -1,28 +1,25 @@
-# AreaLightsDemo
+# Area Lights Demo
 
-## Introduction
+This demo uses the new WaveEngine 3.1 Area Light capabilities to create special soft light effects.
 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+Additionally, let checks the new PBR materials (Physically Based Rendering).
 
-## Getting Started
-
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-
-1. Installation process
-2. Software dependencies
-3. Latest releases
-4. API references
+#### Rectangle Light
+![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/RectangleLight.jpg)
+#### Sphere Light
+![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/SphereLight.jpg)
+#### Disk Light
+![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/DiskLight.jpg)
+#### Tube Light
+![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/TubeLight.jpg)
 
 ## Build and Test
 
-TODO: Describe and show how to build your code and run the tests.
+Required Visual Studio 16.8 with .NET5 support.
 
-## Contribute
-
-TODO: Explain how other users and developers can contribute to make your code better.
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops).
-
+### Special Keys
+ * W,S,D,A: Camera movement.
+ 
 ----
 Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
 
