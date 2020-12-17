@@ -639,7 +639,7 @@ Items:
                 Id: f757badb-c889-4e09-820e-8657836159e8
                 AsignedTo: Default
                 IsEnabled: true
-                Material: 766eb021-ad6b-4bc4-872f-3c3066973131
+                Material: 9316a0ed-a46e-42b0-ba98-be86d0a203af
               - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
                 Id: 32b70e12-7976-4781-b629-0240e9b2ec0f
                 Diameter: 1.0
@@ -744,7 +744,7 @@ Items:
             Id: 80c6a2fe-7ebd-4f56-ae11-7c1ff2d0ad10
             AsignedTo: Default
             IsEnabled: true
-            Material: 9cdc2bfc-81cd-4721-8acc-70fdfbe014b1
+            Material: 3df00591-f3ff-4da6-a4c1-2f6fc01c88f0
           - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
             Id: 8b09755a-2d80-4197-a517-b859300b5c22
             Diameter: 1.0
@@ -848,7 +848,7 @@ Items:
             Id: cc15df6a-86a9-4502-ade0-f958606e24b2
             AsignedTo: Default
             IsEnabled: true
-            Material: 3c70f934-b58a-4569-bffb-09366ad9d48f
+            Material: 26b4a5b9-53f2-4b95-a039-62b15c67f639
           - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
             Id: 0421bd41-5430-4dcc-bdbc-bff40ad865cc
             Height: 1.0
@@ -984,7 +984,7 @@ Items:
                 Id: 9bc31f7a-feef-4f3b-bb3a-b5c66e23b8fd
                 AsignedTo: Default
                 IsEnabled: true
-                Material: c60978b1-7903-4640-98f6-bc85edf50561
+                Material: 16292344-0fa3-4cfc-a929-308419c276c6
               - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
                 Id: 0874cb4a-b471-4939-aad2-56350ccf5cd4
                 Diameter: 1.0
@@ -1064,7 +1064,7 @@ Items:
         Id: 0dd747b2-f0c4-42b6-b618-35d41ba6cb06
         AsignedTo: Default
         IsEnabled: true
-        Material: 6b79e142-29b2-4162-a298-6efd697c912f
+        Material: e134acd2-0fd1-408b-99f1-f4b7c33489b3
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: eba4ddbe-6bb7-4616-b357-fcaffd4e4b0f
         Diameter: 1.0
