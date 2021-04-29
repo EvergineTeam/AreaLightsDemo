@@ -64,6 +64,7 @@ Items:
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
         AspectRatio: 1.60084033
+        AutoDepthBounds: false
         AutoExposureEnabled: false
         CameraOrder: 0.0
         ClearDepth: 0.99000001
@@ -172,10 +173,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 4e429f70-dcad-4423-8cc8-1b901183a250
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: 97a31c12-fa84-434b-bb02-da69d757ff2e
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -213,10 +214,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: e5d63a85-1cb5-45dd-8179-97bfbf62c8d3
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: 7b75f330-1d28-469f-b2d8-15700dd856e7
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -254,10 +255,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: abf9dd6c-3b2a-41f7-b8eb-7c76c113a23d
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: c0dec907-3135-450c-a2fc-c46fbd6ec5db
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -295,10 +296,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 64b33768-7e6e-41ff-b030-80c5ad130240
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: 8dc46974-78ce-4655-8dcc-4c3fecc3a149
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -336,10 +337,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: f9a80a9d-5027-4d7a-85d0-90e7ab202cfc
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: c6123c81-85fb-4a9a-a153-db19e4559403
       - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -377,10 +378,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 4e9b103e-e8d0-47f8-93ac-852f0223e42c
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: 90c9c128-90e6-40e2-a4e5-816cb8558856
     Id: bb43da06-2bbe-4ac9-b260-4dae2e077b79
@@ -419,10 +420,10 @@ Items:
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: f3ec2974-39b0-4504-a625-8a928e2fbdd1
         DebugBoundingbox: true
-        IsCastShadows: false
         IsCullingEnabled: true
         IsEnabled: true
         OrderBias: 0
+        RenderFlags: CastShadows
     Children: []
     Id: 81274a15-8692-4a98-897f-c726827547ed
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -458,12 +459,7 @@ Items:
         InitialU: 0.0
         InitialV: 0.0
         IsEnabled: true
-        Model: 00000000-0000-0000-0000-000000000000
-        ModelMeshName: plane_primitive
-        Normal:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
+        PlaneNormal: YPositive
         TwoSides: false
         UTile: 5.0
         UVHorizontalFlip: false
@@ -473,10 +469,10 @@ Items:
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: 492289d7-5e6c-4aec-a766-9d3dbb4eca65
         DebugBoundingbox: true
-        IsCastShadows: false
         IsCullingEnabled: true
         IsEnabled: true
         OrderBias: 0
+        RenderFlags: CastShadows
     Children: []
     Id: ae9efeae-fcab-4b13-bf5f-d0bbaa59d3a1
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -512,12 +508,7 @@ Items:
         InitialU: 0.0
         InitialV: 0.0
         IsEnabled: true
-        Model: 00000000-0000-0000-0000-000000000000
-        ModelMeshName: plane_primitive
-        Normal:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
+        PlaneNormal: YPositive
         TwoSides: false
         UTile: 8.0
         UVHorizontalFlip: false
@@ -527,10 +518,10 @@ Items:
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: 823febd8-ccda-41f9-aa4c-9c870d35e8db
         DebugBoundingbox: true
-        IsCastShadows: false
         IsCullingEnabled: true
         IsEnabled: true
         OrderBias: 0
+        RenderFlags: CastShadows
     Children: []
     Id: 000f046b-bb30-46bf-bc02-74401cecc7b5
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
@@ -594,7 +585,7 @@ Items:
               G: 207
               R: 255
             ColorByTemperature: true
-            DepthBias: 0.0
+            DebugMode: false
             Intensity: 11.1408453
             IsEnabled: true
             IsShadowEnabled: false
@@ -606,7 +597,8 @@ Items:
               R: 1.0
             LuminousPower: 140.0
             Radius: 0.100000001
-            ShadowsOpacity: 0.0
+            ShadowBias: 0.00400000019
+            ShadowOpacity: 1.0
             Temperature: 4000.0
           - !AreaLightsDemo.Features.Lights.SphereLightVisual,AreaLightsDemo
             Id: 7fc7364e-f584-4937-9499-86147ff83ad7
@@ -639,23 +631,21 @@ Items:
                 Id: f757badb-c889-4e09-820e-8657836159e8
                 AsignedTo: Default
                 IsEnabled: true
-                Material: 9316a0ed-a46e-42b0-ba98-be86d0a203af
+                Material: 16bc1155-1d7b-4001-a589-619507677e30
               - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
                 Id: 32b70e12-7976-4781-b629-0240e9b2ec0f
                 Diameter: 1.0
                 IsEnabled: true
-                Model: 00000000-0000-0000-0000-000000000000
-                ModelMeshName: sphere_primitive
                 Tessellation: 16
                 UVHorizontalFlip: false
                 UVVerticalFlip: false
               - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
                 Id: a4efeea5-c59c-453e-91a4-fa409e4359fd
                 DebugBoundingbox: true
-                IsCastShadows: false
                 IsCullingEnabled: true
                 IsEnabled: true
                 OrderBias: 0
+                RenderFlags: CastShadows
             Children: []
             Id: 41bf11e8-514c-4516-8d08-ff0a3ed7e3d7
         Id: 47f71a62-64ce-4827-8559-4ed68ea84e5e
@@ -690,7 +680,7 @@ Items:
           G: 187
           R: 154
         ColorByTemperature: true
-        DepthBias: 0.0
+        DebugMode: false
         Intensity: 4.77464819
         IsEnabled: true
         IsShadowEnabled: false
@@ -702,7 +692,8 @@ Items:
           R: 0.329113156
         LuminousPower: 60.0
         Radius: 0.280000031
-        ShadowsOpacity: 0.0
+        ShadowBias: 0.00400000019
+        ShadowOpacity: 1.0
         Temperature: 50000.0
       - !AreaLightsDemo.Features.Lights.DiskLightVisual,AreaLightsDemo
         Id: fe868f48-52ce-49aa-ac20-bbd7886f5d82
@@ -744,22 +735,20 @@ Items:
             Id: 80c6a2fe-7ebd-4f56-ae11-7c1ff2d0ad10
             AsignedTo: Default
             IsEnabled: true
-            Material: 3df00591-f3ff-4da6-a4c1-2f6fc01c88f0
+            Material: 507dd22d-fed4-41d8-92fa-5d6eb0730f57
           - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
             Id: 8b09755a-2d80-4197-a517-b859300b5c22
             Diameter: 1.0
-            Height: 0.0
+            Height: 9.99998301E-05
             IsEnabled: true
-            Model: 00000000-0000-0000-0000-000000000000
-            ModelMeshName: cylinder_primitive
             Tessellation: 32
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 789739fc-4a59-4cca-8286-b8b3c8a0c71d
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: edfabe5e-512a-449e-bb47-dd5bbf2422e1
     Id: 9f27b851-674d-4d6a-851f-5afdc2b63565
@@ -793,7 +782,7 @@ Items:
           G: 226
           R: 116
         ColorByTemperature: false
-        DepthBias: 0.0
+        DebugMode: false
         Height: 1.0
         Intensity: 4.77464819
         IsEnabled: true
@@ -805,7 +794,8 @@ Items:
           G: 0.7667436
           R: 0.176774323
         LuminousPower: 60.0
-        ShadowsOpacity: 0.0
+        ShadowBias: 0.00400000019
+        ShadowOpacity: 1.0
         Temperature: 6500.0
         Width: 0.299999952
       - !AreaLightsDemo.Features.Lights.RectangleLightVisual,AreaLightsDemo
@@ -848,19 +838,14 @@ Items:
             Id: cc15df6a-86a9-4502-ade0-f958606e24b2
             AsignedTo: Default
             IsEnabled: true
-            Material: 26b4a5b9-53f2-4b95-a039-62b15c67f639
+            Material: 4873e341-8432-4048-9439-98657b21eb4f
           - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
             Id: 0421bd41-5430-4dcc-bdbc-bff40ad865cc
             Height: 1.0
             InitialU: 0.0
             InitialV: 0.0
             IsEnabled: true
-            Model: 00000000-0000-0000-0000-000000000000
-            ModelMeshName: plane_primitive
-            Normal:
-              X: -0.0
-              Y: -0.0
-              Z: -1.0
+            PlaneNormal: ZPositive
             TwoSides: false
             UTile: 1.0
             UVHorizontalFlip: false
@@ -870,10 +855,10 @@ Items:
           - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
             Id: 61d1d735-a448-4e95-8127-603df628258f
             DebugBoundingbox: true
-            IsCastShadows: false
             IsCullingEnabled: true
             IsEnabled: true
             OrderBias: 0
+            RenderFlags: CastShadows
         Children: []
         Id: 27c62836-8039-47f5-ad2f-5361ebdbbb06
     Id: 7b803642-646c-4a46-9d17-bd3406abc293
@@ -938,7 +923,7 @@ Items:
               G: 107
               R: 255
             ColorByTemperature: true
-            DepthBias: 0.0
+            DebugMode: false
             Intensity: 5.57042265
             IsEnabled: true
             IsShadowEnabled: false
@@ -951,7 +936,8 @@ Items:
               R: 1.0
             LuminousPower: 70.0
             Radius: 0.0400000289
-            ShadowsOpacity: 0.0
+            ShadowBias: 0.00400000019
+            ShadowOpacity: 1.0
             Temperature: 1500.0
           - !AreaLightsDemo.Features.Lights.TubeLightVisual,AreaLightsDemo
             Id: ff3e742d-b620-40a5-8368-851da2e1f230
@@ -984,60 +970,24 @@ Items:
                 Id: 9bc31f7a-feef-4f3b-bb3a-b5c66e23b8fd
                 AsignedTo: Default
                 IsEnabled: true
-                Material: 16292344-0fa3-4cfc-a929-308419c276c6
+                Material: 5bc1a802-ceee-44b6-99b2-4cd4c3aaea15
               - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
                 Id: 0874cb4a-b471-4939-aad2-56350ccf5cd4
                 Diameter: 1.0
                 Height: 1.0
                 IsEnabled: true
-                Model: 00000000-0000-0000-0000-000000000000
-                ModelMeshName: cylinder_primitive
                 Tessellation: 16
               - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
                 Id: 700c4870-abaa-4e02-bcc7-e803b7c9a82d
                 DebugBoundingbox: true
-                IsCastShadows: false
                 IsCullingEnabled: true
                 IsEnabled: true
                 OrderBias: 0
+                RenderFlags: CastShadows
             Children: []
             Id: a6ee32e0-2faf-4f80-b4c3-c465ee4b843b
         Id: b4c4132c-e5c3-42ec-a62f-cd6581e0e232
     Id: 6992edfd-c84f-4fe3-a3c8-23e03af0d47b
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: PostProcessingVolume
-    Tag: null
-    IsEnabled: true
-    IsStatic: false
-    Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
-        Id: 96920144-043f-4bea-92e2-ae44c853441c
-        IsEnabled: true
-        LocalOrientation:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        LocalPosition:
-          X: 1.73066163
-          Y: -0.603858531
-          Z: -1.3887558
-        LocalScale:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
-        Id: efede173-d986-4d26-84b3-0fc899d1d048
-        DebugBoundingbox: true
-        IsCastShadows: false
-        IsCullingEnabled: true
-        IsEnabled: true
-        IsGlobal: true
-        LayerOrder: 10
-        OrderBias: 0
-        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
-    Children: []
-    Id: 9e93c301-c60a-4e06-b0a5-6d42ea2190cf
   - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
     Name: SkyAtmosphere
     Tag: Skybox
@@ -1064,23 +1014,21 @@ Items:
         Id: 0dd747b2-f0c4-42b6-b618-35d41ba6cb06
         AsignedTo: Default
         IsEnabled: true
-        Material: e134acd2-0fd1-408b-99f1-f4b7c33489b3
+        Material: 20cc3714-f28d-4865-ac12-647060b2838c
       - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
         Id: eba4ddbe-6bb7-4616-b357-fcaffd4e4b0f
         Diameter: 1.0
         IsEnabled: true
-        Model: 00000000-0000-0000-0000-000000000000
-        ModelMeshName: sphere_primitive
         Tessellation: 32
         UVHorizontalFlip: false
         UVVerticalFlip: false
       - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
         Id: 7139090d-ce99-46cf-96e3-b09627ec293e
         DebugBoundingbox: true
-        IsCastShadows: false
         IsCullingEnabled: false
         IsEnabled: true
         OrderBias: 0
+        RenderFlags: CastShadows
       - !WaveEngine.Components.Environment.AtmosphereController,WaveEngine.Components
         Id: 6a9dadf8-48d5-40e6-8d39-412511305d6f
         AtmosphereRadiusInKm: 6471.0
@@ -1131,7 +1079,8 @@ Items:
           G: 0
           R: 0
         ColorByTemperature: true
-        DepthBias: 0.0
+        DebugMode: false
+        GammaDistribution: 0.800000012
         Illuminance: 3.0
         Intensity: 3.0
         IsEnabled: true
@@ -1141,11 +1090,52 @@ Items:
           B: 0.0
           G: 0.0
           R: 0.0
-        ShadowsOpacity: 0.0
+        ShadowBias: 0.00499999989
+        ShadowDistance: 80.0
+        ShadowOpacity: 1.0
+        SplitDistance:
+          - 0.0
+          - 0.0
+          - 0.0
+          - 0.0
         Temperature: 6500.0
       - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
         Id: 497a414d-d64f-4fef-b31d-c9ecaa7beb66
         IsEnabled: true
     Children: []
     Id: 2e497f0a-16e9-4dee-a4bc-d2e728b33b31
+  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+    Name: postProcesingVolume
+    Tag: null
+    IsEnabled: true
+    IsStatic: false
+    Components:
+      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+        Id: 6aa3bc9e-d739-4432-b0cd-e3fb59536412
+        IsEnabled: true
+        LocalOrientation:
+          W: 1.0
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        LocalPosition:
+          X: 1.67389703
+          Y: -0.370185792
+          Z: -1.65391827
+        LocalScale:
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
+        Id: 7137632e-a17b-4928-8a28-ebe3c98b5eb4
+        DebugBoundingbox: true
+        IsCullingEnabled: true
+        IsEnabled: true
+        IsGlobal: true
+        LayerOrder: 10
+        OrderBias: 0
+        RenderFlags: CastShadows
+        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
+    Children: []
+    Id: f298a623-30bb-4a47-b028-aa02d7f776cc
 Managers: []

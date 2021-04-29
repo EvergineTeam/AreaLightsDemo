@@ -5,7 +5,7 @@ using WaveEngine.Platform;
 
 namespace AreaLightsDemo
 {
-    public class MyApplication : Application
+    public partial class MyApplication : Application
     {
         public MyApplication()
         {
