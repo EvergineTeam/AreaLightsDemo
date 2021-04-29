@@ -1,6 +1,6 @@
 # Area Lights Demo
 
-This demo uses the new WaveEngine 3.1 Area Light capabilities to create special soft light effects.
+This demo uses the new WaveEngine 3.2 Area Light capabilities to create special soft light effects.
 
 Additionally, let checks the new PBR materials (Physically Based Rendering).
 
@@ -21,7 +21,7 @@ Required Visual Studio 16.8 with .NET5 support.
  * W,S,D,A: Camera movement.
  
 ----
-Powered by **[WaveEngine 3.1](http://www.waveengine.net)**
+Powered by **[WaveEngine 3.2](http://www.waveengine.net)**
 
 LET'S CONNECT!
 
