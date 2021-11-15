@@ -1,14 +1,14 @@
-﻿using AreaLightsDemo.Effects;
+using AreaLightsDemo.Effects;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Components.Graphics3D;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Graphics.Effects;
-using WaveEngine.Framework.Graphics.Materials;
-using WaveEngine.Framework.Services;
+using Evergine.Common.Graphics;
+using Evergine.Components.Graphics3D;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Graphics.Effects;
+using Evergine.Framework.Graphics.Materials;
+using Evergine.Framework.Services;
 
 namespace AreaLightsDemo.Features.Lights
 {
@@ -36,7 +36,7 @@ namespace AreaLightsDemo.Features.Lights
 
         protected override bool OnAttached()
         {
-            var effect = assetsService.Load<Effect>(WaveContent.Effects.BasicColor);
+            var effect = assetsService.Load<Effect>(EvergineContent.Effects.BasicColor);
             if (effect == null)
             {
                 return false;

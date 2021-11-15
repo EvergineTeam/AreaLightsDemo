@@ -1,9 +1,9 @@
-using WaveEngine.Common.Graphics;
-using WaveEngine.Components.Graphics3D;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Services;
-using WaveEngine.Mathematics;
+using Evergine.Common.Graphics;
+using Evergine.Components.Graphics3D;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Services;
+using Evergine.Mathematics;
 
 namespace AreaLightsDemo
 {
@@ -11,14 +11,6 @@ namespace AreaLightsDemo
     {
         protected override void CreateScene()
         {
-            var backendType = Application.Current.Container.Resolve<GraphicsContext>().BackendType;
-            var isOpenGL = backendType == GraphicsBackend.OpenGL || backendType == GraphicsBackend.WebGL1 || backendType == GraphicsBackend.WebGL2 || backendType == GraphicsBackend.OpenGLES;
-
-            if (isOpenGL)
-            {
-                var pp = this.Managers.EntityManager.Find("PostProcessingVolume");
-                this.Managers.EntityManager.Remove(pp);
-            }
         }
     }
 }

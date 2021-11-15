@@ -9,31 +9,31 @@
 
 namespace AreaLightsDemo.Effects
 {
-    using WaveEngine.Common.Graphics;
-    using WaveEngine.Framework.Graphics;
-    using WaveEngine.Framework.Graphics.Effects;
-    using WaveEngine.Mathematics;
+    using Evergine.Common.Graphics;
+    using Evergine.Framework.Graphics;
+    using Evergine.Framework.Graphics.Effects;
+    using Evergine.Mathematics;
     
     
-    [WaveEngine.Framework.Graphics.MaterialDecoratorAttribute("87133309-71cd-459d-afff-59872511b38f")]
-    public partial class BasicColor : WaveEngine.Framework.Graphics.MaterialDecorator
+    [Evergine.Framework.Graphics.MaterialDecoratorAttribute("87133309-71cd-459d-afff-59872511b38f")]
+    public partial class BasicColor : Evergine.Framework.Graphics.MaterialDecorator
     {
         
-        public BasicColor(WaveEngine.Framework.Graphics.Effects.Effect effect) : 
+        public BasicColor(Evergine.Framework.Graphics.Effects.Effect effect) : 
                 base(new Material(effect))
         {
         }
         
-        public BasicColor(WaveEngine.Framework.Graphics.Material material) : 
+        public BasicColor(Evergine.Framework.Graphics.Material material) : 
                 base(material)
         {
         }
         
-        public WaveEngine.Mathematics.Matrix4x4 Base_WorldViewProj
+        public Evergine.Mathematics.Matrix4x4 Base_WorldViewProj
         {
             get
             {
-                return this.material.CBuffers[0].GetBufferData<WaveEngine.Mathematics.Matrix4x4>(0);
+                return this.material.CBuffers[0].GetBufferData<Evergine.Mathematics.Matrix4x4>(0);
             }
             set
             {
@@ -41,11 +41,11 @@ namespace AreaLightsDemo.Effects
             }
         }
         
-        public WaveEngine.Mathematics.Vector3 Parameters_Color
+        public Evergine.Mathematics.Vector3 Parameters_Color
         {
             get
             {
-                return this.material.CBuffers[1].GetBufferData<WaveEngine.Mathematics.Vector3>(0);
+                return this.material.CBuffers[1].GetBufferData<Evergine.Mathematics.Vector3>(0);
             }
             set
             {

@@ -1,12 +1,12 @@
-!WaveEngine.Framework.Assets.AssetSources.Entities.SceneModel,WaveEngine.Framework
+!Evergine.Framework.Assets.AssetSources.Entities.SceneModel,Evergine.Framework
 Items:
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: EnvironmentManager
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 7cf652b5-0d2e-4a05-ac0b-02015791fb99
         IsEnabled: true
         LocalOrientation:
@@ -22,20 +22,21 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.EnvironmentComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.EnvironmentComponent,Evergine.Framework
         Id: 94fb114a-c4d8-4674-bd4d-409893d8ab53
         IntensityMultiplier: 1.0
         IsEnabled: true
         ReflectionProbe: cb4c9738-03a0-494f-a839-20a22581fb59
+        Strategy: Automatically
     Children: []
     Id: 3aea6832-ccae-4bc6-9bb7-64229c7c2de0
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: Camera
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 809f1d2c-2305-4916-acfe-f81399ffb235
         IsEnabled: true
         LocalOrientation:
@@ -51,7 +52,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Cameras.FreeCamera3D,WaveEngine.Components
+      - !Evergine.Components.Cameras.FreeCamera3D,Evergine.Components
         Id: 07d3e21d-cd4b-412f-88a6-1331d8afa583
         IsEnabled: true
         MaxPitch: 1.49225616
@@ -60,7 +61,7 @@ Items:
         TouchMoveAndOrientationRatio: 0.5
         TouchSensibility: 1.0
         UpdateOrder: 0.5
-      - !WaveEngine.Framework.Graphics.Camera3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
         AspectRatio: 1.60084033
@@ -75,13 +76,13 @@ Items:
           MaxDepth: 1.0
           MinDepth: 0.0
         DisplayTag: null
-        DisplayTagDirty: true
         Exposure: 2.35901475
         FarPlane: 1000.0
         FieldOfView: 0.785398185
         FieldOfViewAxis: Vertical
         FocalDistance: 1.0
         FocalLength: 50.0
+        FrameBuffer: null
         FrustumCullingEnabled: true
         HDREnabled: true
         IsEnabled: true
@@ -115,13 +116,13 @@ Items:
         UsePhysicalParameters: false
     Children: []
     Id: 9841b6b3-9c09-4b60-b442-a5c63257ee02
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: FlightHelmet_gltf
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: da0ad18a-cb07-4e1f-a6fe-ad197ec58b4a
         IsEnabled: true
         LocalOrientation:
@@ -138,13 +139,13 @@ Items:
           Y: 1.0
           Z: 1.0
     Children:
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: Hose_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: d1257d7a-425d-4f3c-970f-2189e014337a
             IsEnabled: true
             LocalOrientation:
@@ -160,17 +161,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 9196df5e-3a41-4d40-ba06-ffa6052237a9
             AsignedTo: HoseMat
             IsEnabled: true
             Material: 924ce94f-2ce8-4176-9609-6f57b088de26
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: 15050a95-fbd2-4784-8a08-59f556e09c4d
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: Hose_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: 4e429f70-dcad-4423-8cc8-1b901183a250
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -179,13 +180,13 @@ Items:
             RenderFlags: CastShadows
         Children: []
         Id: 97a31c12-fa84-434b-bb02-da69d757ff2e
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: RubberWood_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 180e1b4d-9b0c-4236-90f4-b62886fd0461
             IsEnabled: true
             LocalOrientation:
@@ -201,17 +202,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 9aed97b9-ac22-4756-994a-76db42768f2f
             AsignedTo: RubberWoodMat
             IsEnabled: true
             Material: 761063bd-be46-4b3f-9ff7-76fa6fb8c953
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: 8d4766fe-13c1-419c-b72e-12601f884268
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: RubberWood_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: e5d63a85-1cb5-45dd-8179-97bfbf62c8d3
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -220,13 +221,13 @@ Items:
             RenderFlags: CastShadows
         Children: []
         Id: 7b75f330-1d28-469f-b2d8-15700dd856e7
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: GlassPlastic_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 34c06a62-038e-4479-9a4e-82fb4326808b
             IsEnabled: true
             LocalOrientation:
@@ -242,17 +243,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 30d01578-2561-4b4a-990e-69f10185397f
             AsignedTo: GlassPlasticMat
             IsEnabled: true
             Material: 395209c3-6603-4c1e-948b-96fd87a71693
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: d1e67313-3500-48e5-9672-35141abb6e82
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: GlassPlastic_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: abf9dd6c-3b2a-41f7-b8eb-7c76c113a23d
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -261,13 +262,13 @@ Items:
             RenderFlags: CastShadows
         Children: []
         Id: c0dec907-3135-450c-a2fc-c46fbd6ec5db
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: MetalParts_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 5320c275-79cc-440d-b9b7-94db761c396e
             IsEnabled: true
             LocalOrientation:
@@ -283,17 +284,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 7a7b2433-2e30-45e9-b289-90d90e3e3222
             AsignedTo: MetalPartsMat
             IsEnabled: true
             Material: a56fa624-0eba-4dc4-8038-6cb855f72a9d
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: de4b847a-d08c-4a4f-9081-5ea035767dd6
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: MetalParts_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: 64b33768-7e6e-41ff-b030-80c5ad130240
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -302,13 +303,13 @@ Items:
             RenderFlags: CastShadows
         Children: []
         Id: 8dc46974-78ce-4655-8dcc-4c3fecc3a149
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: LeatherParts_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 6828da41-022c-48d8-9739-86a1a321a6ff
             IsEnabled: true
             LocalOrientation:
@@ -324,17 +325,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 643ea006-eb58-4543-b9bf-7d94814cec6b
             AsignedTo: LeatherPartsMat
             IsEnabled: true
             Material: 751101f3-c35b-47ca-84e6-371b284d6bad
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: 94cb3b61-40f5-48c8-b689-26f2c2726729
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: LeatherParts_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: f9a80a9d-5027-4d7a-85d0-90e7ab202cfc
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -343,13 +344,13 @@ Items:
             RenderFlags: CastShadows
         Children: []
         Id: c6123c81-85fb-4a9a-a153-db19e4559403
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: Lenses_low
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: bedadba2-5a91-43b7-acd1-8f93cb9e1b1f
             IsEnabled: true
             LocalOrientation:
@@ -365,17 +366,17 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 13d5fcd2-d0bd-4007-a8e3-355cbd3a98c4
             AsignedTo: LensesMat
             IsEnabled: true
             Material: 3fbec4a7-fc56-43d7-be21-716cf371455c
-          - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
             Id: 0e4c271e-10e9-47c8-a2ba-1ea002b1826c
             IsEnabled: true
             Model: baea5819-cf90-45c2-b560-392f9941fd1d
             ModelMeshName: Lenses_low
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: 4e9b103e-e8d0-47f8-93ac-852f0223e42c
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -385,13 +386,13 @@ Items:
         Children: []
         Id: 90c9c128-90e6-40e2-a4e5-816cb8558856
     Id: bb43da06-2bbe-4ac9-b260-4dae2e077b79
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: DamagedHelmet_gltf
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 48940679-4275-4255-889c-196f46e7789f
         IsEnabled: true
         LocalOrientation:
@@ -407,17 +408,17 @@ Items:
           X: 0.200000003
           Y: 0.200000003
           Z: 0.200000003
-      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
         Id: 1b32a320-68e7-4099-b074-2f54a0ef0b51
         AsignedTo: Material_MR
         IsEnabled: true
         Material: 05a3b8ed-d718-4fd0-ac19-0e67837387d4
-      - !WaveEngine.Components.Graphics3D.MeshComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MeshComponent,Evergine.Framework
         Id: 40e9a4d1-e069-4a9e-84c3-6a0319631078
         IsEnabled: true
         Model: c0c9518a-cb2a-4af7-bfa4-fda2d4247919
         ModelMeshName: mesh_helmet_LP_13930damagedHelmet
-      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: f3ec2974-39b0-4504-a625-8a928e2fbdd1
         DebugBoundingbox: true
         IsCullingEnabled: true
@@ -426,13 +427,13 @@ Items:
         RenderFlags: CastShadows
     Children: []
     Id: 81274a15-8692-4a98-897f-c726827547ed
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: Wall
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 691e8829-8e79-4c63-84f3-4ccc618ddabf
         IsEnabled: true
         LocalOrientation:
@@ -448,12 +449,12 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
         Id: 35947136-08d1-4173-ad16-aa492ea47a67
         AsignedTo: Default
         IsEnabled: true
         Material: 7935a99a-afa8-422c-9c03-279b4c1e8d5c
-      - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+      - !Evergine.Components.Graphics3D.PlaneMesh,Evergine.Components
         Id: f3b5ea1a-6538-4f15-b657-f378155fbb08
         Height: 1.0
         InitialU: 0.0
@@ -466,7 +467,7 @@ Items:
         UVVerticalFlip: false
         Width: 5.0
         YTile: 1.0
-      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: 492289d7-5e6c-4aec-a766-9d3dbb4eca65
         DebugBoundingbox: true
         IsCullingEnabled: true
@@ -475,13 +476,13 @@ Items:
         RenderFlags: CastShadows
     Children: []
     Id: ae9efeae-fcab-4b13-bf5f-d0bbaa59d3a1
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: Floor
     Tag: Skybox
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 14c26733-c172-4fc1-b0ca-416326fe409f
         IsEnabled: true
         LocalOrientation:
@@ -497,12 +498,12 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
         Id: a02b872d-fd12-400d-86d9-91a19ceacad1
         AsignedTo: Default
         IsEnabled: true
         Material: 4217193a-62da-4707-b230-82cde5556fcd
-      - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+      - !Evergine.Components.Graphics3D.PlaneMesh,Evergine.Components
         Id: 7de49a08-dc95-4525-9ad3-3ef7bd8d7632
         Height: 4.0
         InitialU: 0.0
@@ -515,7 +516,7 @@ Items:
         UVVerticalFlip: false
         Width: 5.0
         YTile: 7.5
-      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: 823febd8-ccda-41f9-aa4c-9c870d35e8db
         DebugBoundingbox: true
         IsCullingEnabled: true
@@ -524,13 +525,13 @@ Items:
         RenderFlags: CastShadows
     Children: []
     Id: 000f046b-bb30-46bf-bc02-74401cecc7b5
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: SphereLightPivot
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 0da2c4cf-3d52-484f-b9e2-bbf7ecf7af80
         IsEnabled: true
         LocalOrientation:
@@ -546,7 +547,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.Spinner,WaveEngine.Components
+      - !Evergine.Components.Graphics3D.Spinner,Evergine.Components
         Id: 249204ae-6ada-4631-87b3-e34d15c6df1f
         AxisIncrease:
           X: 0.0
@@ -555,13 +556,13 @@ Items:
         IsEnabled: true
         UpdateOrder: 0.5
     Children:
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: photometricSphereAreaLight
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 94fcd0d1-4e8d-4abc-878f-6f604211fc77
             IsEnabled: true
             LocalOrientation:
@@ -577,7 +578,7 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Framework.Graphics.PhotometricSphereAreaLight,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.PhotometricSphereAreaLight,Evergine.Framework
             Id: b518531b-f3c2-4f74-a1f8-285259a7096d
             Color:
               A: 255
@@ -605,13 +606,13 @@ Items:
             IsEnabled: true
             UpdateOrder: 0.5
         Children:
-          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+          - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
             Name: sphere
             Tag: null
             IsEnabled: true
             IsStatic: false
             Components:
-              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+              - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
                 Id: ffa42df7-114a-4ca5-babb-351d2dbbd07b
                 IsEnabled: true
                 LocalOrientation:
@@ -627,19 +628,19 @@ Items:
                   X: 0.200000003
                   Y: 0.200000003
                   Z: 0.200000003
-              - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+              - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
                 Id: f757badb-c889-4e09-820e-8657836159e8
                 AsignedTo: Default
                 IsEnabled: true
-                Material: 16bc1155-1d7b-4001-a589-619507677e30
-              - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
+                Material: 3a0eb582-796d-42e2-a378-aac7b686cfd7
+              - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
                 Id: 32b70e12-7976-4781-b629-0240e9b2ec0f
                 Diameter: 1.0
                 IsEnabled: true
                 Tessellation: 16
                 UVHorizontalFlip: false
                 UVVerticalFlip: false
-              - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+              - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
                 Id: a4efeea5-c59c-453e-91a4-fa409e4359fd
                 DebugBoundingbox: true
                 IsCullingEnabled: true
@@ -650,13 +651,13 @@ Items:
             Id: 41bf11e8-514c-4516-8d08-ff0a3ed7e3d7
         Id: 47f71a62-64ce-4827-8559-4ed68ea84e5e
     Id: 5f4ea58c-882a-4e3a-ae25-6ef3634d1b56
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: photometricDiskAreaLight
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 3b9fae44-1f98-4691-a6a5-9b1da79eadef
         IsEnabled: true
         LocalOrientation:
@@ -672,7 +673,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Framework.Graphics.PhotometricDiskAreaLight,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.PhotometricDiskAreaLight,Evergine.Framework
         Id: c90be14c-0f02-4eee-87c5-f85f349c9297
         Color:
           A: 255
@@ -709,13 +710,13 @@ Items:
         Period: 3.0
         UpdateOrder: 0.5
     Children:
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: cylinder
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: b0656fd8-774c-4701-a981-b35132c4cb3a
             IsEnabled: true
             LocalOrientation:
@@ -731,18 +732,18 @@ Items:
               X: 0.560000062
               Y: 0.560000062
               Z: 0.560000062
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: 80c6a2fe-7ebd-4f56-ae11-7c1ff2d0ad10
             AsignedTo: Default
             IsEnabled: true
-            Material: 507dd22d-fed4-41d8-92fa-5d6eb0730f57
-          - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
+            Material: 756f8356-6ebb-495f-9eba-31a85a8594fd
+          - !Evergine.Components.Graphics3D.CylinderMesh,Evergine.Components
             Id: 8b09755a-2d80-4197-a517-b859300b5c22
             Diameter: 1.0
             Height: 9.99998301E-05
             IsEnabled: true
             Tessellation: 32
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: 789739fc-4a59-4cca-8286-b8b3c8a0c71d
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -752,13 +753,13 @@ Items:
         Children: []
         Id: edfabe5e-512a-449e-bb47-dd5bbf2422e1
     Id: 9f27b851-674d-4d6a-851f-5afdc2b63565
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: photometricRectangleAreaLight
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 3ce54815-fdcd-4b48-9be6-bcc9e035c00c
         IsEnabled: true
         LocalOrientation:
@@ -774,7 +775,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Framework.Graphics.PhotometricRectangleAreaLight,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.PhotometricRectangleAreaLight,Evergine.Framework
         Id: e0fe2025-d1e2-4bcd-800a-e3d454d2ee03
         Color:
           A: 255
@@ -812,13 +813,13 @@ Items:
         Period: 3.0
         UpdateOrder: 0.5
     Children:
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: plane
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 85a1a3ba-5d1e-4f88-91d8-71520f0fa8fd
             IsEnabled: true
             LocalOrientation:
@@ -834,12 +835,12 @@ Items:
               X: 0.299999952
               Y: 1.0
               Z: 0.0
-          - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
             Id: cc15df6a-86a9-4502-ade0-f958606e24b2
             AsignedTo: Default
             IsEnabled: true
-            Material: 4873e341-8432-4048-9439-98657b21eb4f
-          - !WaveEngine.Components.Graphics3D.PlaneMesh,WaveEngine.Components
+            Material: 173dd6f1-a36c-46f0-bd52-73f618c2cc3f
+          - !Evergine.Components.Graphics3D.PlaneMesh,Evergine.Components
             Id: 0421bd41-5430-4dcc-bdbc-bff40ad865cc
             Height: 1.0
             InitialU: 0.0
@@ -852,7 +853,7 @@ Items:
             UVVerticalFlip: false
             Width: 1.0
             YTile: 1.0
-          - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+          - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
             Id: 61d1d735-a448-4e95-8127-603df628258f
             DebugBoundingbox: true
             IsCullingEnabled: true
@@ -862,13 +863,13 @@ Items:
         Children: []
         Id: 27c62836-8039-47f5-ad2f-5361ebdbbb06
     Id: 7b803642-646c-4a46-9d17-bd3406abc293
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: TubePivot
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 287d7bd1-ba77-4c55-814b-1cf34f182063
         IsEnabled: true
         LocalOrientation:
@@ -884,7 +885,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.Spinner,WaveEngine.Components
+      - !Evergine.Components.Graphics3D.Spinner,Evergine.Components
         Id: 4d2e84e8-1071-4860-954f-0a77f3941592
         AxisIncrease:
           X: 0.0
@@ -893,13 +894,13 @@ Items:
         IsEnabled: true
         UpdateOrder: 0.5
     Children:
-      - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+      - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
         Name: photometricTubeAreaLight
         Tag: null
         IsEnabled: true
         IsStatic: false
         Components:
-          - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
             Id: 2eeeb694-78a5-47c4-8c0b-5b1ef2fd8b6b
             IsEnabled: true
             LocalOrientation:
@@ -915,7 +916,7 @@ Items:
               X: 1.0
               Y: 1.0
               Z: 1.0
-          - !WaveEngine.Framework.Graphics.PhotometricTubeAreaLight,WaveEngine.Framework
+          - !Evergine.Framework.Graphics.PhotometricTubeAreaLight,Evergine.Framework
             Id: 310ec9fc-f22c-4a0b-be1d-2437caef0013
             Color:
               A: 255
@@ -944,13 +945,13 @@ Items:
             IsEnabled: true
             UpdateOrder: 0.5
         Children:
-          - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+          - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
             Name: cylinder
             Tag: null
             IsEnabled: true
             IsStatic: false
             Components:
-              - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+              - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
                 Id: 198c02a6-1d94-4a19-a57c-79506815d804
                 IsEnabled: true
                 LocalOrientation:
@@ -966,18 +967,18 @@ Items:
                   X: 0.0800000578
                   Y: 1.0
                   Z: 0.0800000578
-              - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+              - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
                 Id: 9bc31f7a-feef-4f3b-bb3a-b5c66e23b8fd
                 AsignedTo: Default
                 IsEnabled: true
-                Material: 5bc1a802-ceee-44b6-99b2-4cd4c3aaea15
-              - !WaveEngine.Components.Graphics3D.CylinderMesh,WaveEngine.Components
+                Material: 731114a9-f19a-422b-97ce-2ee25a28482e
+              - !Evergine.Components.Graphics3D.CylinderMesh,Evergine.Components
                 Id: 0874cb4a-b471-4939-aad2-56350ccf5cd4
                 Diameter: 1.0
                 Height: 1.0
                 IsEnabled: true
                 Tessellation: 16
-              - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+              - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
                 Id: 700c4870-abaa-4e02-bcc7-e803b7c9a82d
                 DebugBoundingbox: true
                 IsCullingEnabled: true
@@ -988,13 +989,13 @@ Items:
             Id: a6ee32e0-2faf-4f80-b4c3-c465ee4b843b
         Id: b4c4132c-e5c3-42ec-a62f-cd6581e0e232
     Id: 6992edfd-c84f-4fe3-a3c8-23e03af0d47b
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: SkyAtmosphere
     Tag: Skybox
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: 7d9e681b-b251-4316-9d60-20ed82d4490f
         IsEnabled: true
         LocalOrientation:
@@ -1010,26 +1011,26 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Components.Graphics3D.MaterialComponent,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MaterialComponent,Evergine.Framework
         Id: 0dd747b2-f0c4-42b6-b618-35d41ba6cb06
         AsignedTo: Default
         IsEnabled: true
-        Material: 20cc3714-f28d-4865-ac12-647060b2838c
-      - !WaveEngine.Components.Graphics3D.SphereMesh,WaveEngine.Components
+        Material: eef241a5-3373-430e-a0e6-c3eadef1ea5b
+      - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
         Id: eba4ddbe-6bb7-4616-b357-fcaffd4e4b0f
         Diameter: 1.0
         IsEnabled: true
         Tessellation: 32
         UVHorizontalFlip: false
         UVVerticalFlip: false
-      - !WaveEngine.Components.Graphics3D.MeshRenderer,WaveEngine.Framework
+      - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: 7139090d-ce99-46cf-96e3-b09627ec293e
         DebugBoundingbox: true
         IsCullingEnabled: false
         IsEnabled: true
         OrderBias: 0
         RenderFlags: CastShadows
-      - !WaveEngine.Components.Environment.AtmosphereController,WaveEngine.Components
+      - !Evergine.Components.Environment.AtmosphereController,Evergine.Components
         Id: 6a9dadf8-48d5-40e6-8d39-412511305d6f
         AtmosphereRadiusInKm: 6471.0
         IsEnabled: true
@@ -1049,13 +1050,13 @@ Items:
         UpdateOrder: 0.5
     Children: []
     Id: c0b08996-71ab-4348-8234-bfd6841ba1b1
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
+  - !Evergine.Framework.Assets.AssetSources.Entities.EntityItemModel,Evergine.Framework
     Name: SunLight
     Tag: null
     IsEnabled: true
     IsStatic: false
     Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.Transform3D,Evergine.Framework
         Id: eda6964d-24f1-457b-8e28-677b388a9813
         IsEnabled: true
         LocalOrientation:
@@ -1071,7 +1072,7 @@ Items:
           X: 1.0
           Y: 1.0
           Z: 1.0
-      - !WaveEngine.Framework.Graphics.PhotometricDirectionalLight,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.PhotometricDirectionalLight,Evergine.Framework
         Id: 1bdf54a8-e076-407d-8132-810084a009de
         Color:
           A: 0
@@ -1099,43 +1100,9 @@ Items:
           - 0.0
           - 0.0
         Temperature: 6500.0
-      - !WaveEngine.Framework.Graphics.SunComponent,WaveEngine.Framework
+      - !Evergine.Framework.Graphics.SunComponent,Evergine.Framework
         Id: 497a414d-d64f-4fef-b31d-c9ecaa7beb66
         IsEnabled: true
     Children: []
     Id: 2e497f0a-16e9-4dee-a4bc-d2e728b33b31
-  - !WaveEngine.Framework.Assets.AssetSources.Entities.EntityItemModel,WaveEngine.Framework
-    Name: postProcesingVolume
-    Tag: null
-    IsEnabled: true
-    IsStatic: false
-    Components:
-      - !WaveEngine.Framework.Graphics.Transform3D,WaveEngine.Framework
-        Id: 6aa3bc9e-d739-4432-b0cd-e3fb59536412
-        IsEnabled: true
-        LocalOrientation:
-          W: 1.0
-          X: 0.0
-          Y: 0.0
-          Z: 0.0
-        LocalPosition:
-          X: 1.67389703
-          Y: -0.370185792
-          Z: -1.65391827
-        LocalScale:
-          X: 1.0
-          Y: 1.0
-          Z: 1.0
-      - !WaveEngine.Components.Graphics3D.PostProcessingGraphRenderer,WaveEngine.Components
-        Id: 7137632e-a17b-4928-8a28-ebe3c98b5eb4
-        DebugBoundingbox: true
-        IsCullingEnabled: true
-        IsEnabled: true
-        IsGlobal: true
-        LayerOrder: 10
-        OrderBias: 0
-        RenderFlags: CastShadows
-        ppGraph: dd593717-0922-4f58-9c85-c309658eff03
-    Children: []
-    Id: f298a623-30bb-4a47-b028-aa02d7f776cc
 Managers: []

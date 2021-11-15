@@ -1,12 +1,12 @@
 using System;
 using System.Diagnostics;
-using WaveEngine.Common;
-using WaveEngine.Common.Audio;
-using WaveEngine.Common.Graphics;
-using WaveEngine.Framework;
-using WaveEngine.Framework.Graphics;
-using WaveEngine.Framework.Services;
-using WaveEngine.Platform;
+using Evergine.Common;
+using Evergine.Common.Audio;
+using Evergine.Common.Graphics;
+using Evergine.Framework;
+using Evergine.Framework.Graphics;
+using Evergine.Framework.Services;
+using Evergine.Platform;
 
 namespace AreaLightsDemo.Desktop
 {
@@ -77,11 +77,11 @@ namespace AreaLightsDemo.Desktop
             AudioDevice audioDevice;
             if (DeviceInfo.PlatformType == PlatformType.Windows)
             {
-                audioDevice = new WaveEngine.XAudio2.XAudioDevice();
+                audioDevice = new Evergine.XAudio2.XAudioDevice();
             }
             else if (DeviceInfo.PlatformType == PlatformType.Linux || DeviceInfo.PlatformType == PlatformType.MacOS)
             {
-                audioDevice = new WaveEngine.OpenAL.ALAudioDevice();
+                audioDevice = new Evergine.OpenAL.ALAudioDevice();
             }
             else
             {
@@ -93,7 +93,7 @@ namespace AreaLightsDemo.Desktop
 
         private static WindowsSystem CreateWindowSystem()
         {
-            WindowsSystem windowsSystem = new WaveEngine.SDL.SDLWindowsSystem();
+            WindowsSystem windowsSystem = new Evergine.SDL.SDLWindowsSystem();
             return windowsSystem;
         }
 
@@ -102,15 +102,15 @@ namespace AreaLightsDemo.Desktop
             GraphicsContext graphicsContext;
             if (DeviceInfo.PlatformType == PlatformType.Windows)
             {
-                graphicsContext = new WaveEngine.DirectX11.DX11GraphicsContext();
+                graphicsContext = new Evergine.DirectX11.DX11GraphicsContext();
             }
             else if (DeviceInfo.PlatformType == PlatformType.Linux)
             {
-                graphicsContext = new WaveEngine.Vulkan.VKGraphicsContext();
+                graphicsContext = new Evergine.Vulkan.VKGraphicsContext();
             }
             else if (DeviceInfo.PlatformType == PlatformType.MacOS)
             {
-                graphicsContext = new WaveEngine.Metal.MTLGraphicsContext();
+                graphicsContext = new Evergine.Metal.MTLGraphicsContext();
             }
             else
             {
