@@ -1,27 +1,27 @@
 # Area Lights Demo
 
-This demo uses the new WaveEngine 3.2 Area Light capabilities to create special soft light effects.
+This demo uses the new Evergine Area Light capabilities to create special soft light effects.
 
 Additionally, let checks the new PBR materials (Physically Based Rendering).
 
 #### Rectangle Light
-![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/RectangleLight.jpg)
+![alt Screenshot0](Screenshots/RectangleLight.jpg)
 #### Sphere Light
-![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/SphereLight.jpg)
+![alt Screenshot0](Screenshots/SphereLight.jpg)
 #### Disk Light
-![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/DiskLight.jpg)
+![alt Screenshot0](Screenshots/DiskLight.jpg)
 #### Tube Light
-![alt Screenshot0](https://github.com/WaveEngine/AreaLightsDemo/blob/main/Screenshots/TubeLight.jpg)
+![alt Screenshot0](Screenshots/TubeLight.jpg)
 
 ## Build and Test
 
-Required Visual Studio 16.8 with .NET5 support.
+Required Visual Studio 2022 with .NET6 support.
 
 ### Special Keys
  * W,S,D,A: Camera movement.
  
 ----
-Powered by **[WaveEngine 3.2](http://www.waveengine.net)**
+Powered by **[Evergine](http://www.evergine.com)**
 
 LET'S CONNECT!
 
