@@ -1,10 +1,10 @@
-using System.Diagnostics;
 using Evergine.Common.Graphics;
-using Evergine.DirectX11;
 using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 using Evergine.UWPView;
+using System.Diagnostics;
+using Evergine.DirectX11;
 using Windows.UI.Xaml.Controls;
 
 namespace AreaLightsDemo.UWP
