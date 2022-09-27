@@ -6,7 +6,7 @@ DefaultProfile:
   Platform: Undefined
 ExportAsRaw: false
 MaterialInfo:
-  Id: 77816915-7a36-44c2-8a8c-fcb4aa9a7fc2
+  Id: 98f6af69-1304-4434-afd9-15f3a15acd96
   ActiveDirectives:
     - DIFF
     - IBL
@@ -93,13 +93,16 @@ MaterialInfo:
     - Name: IrradianceSH
       Type: Evergine.Mathematics.Vector4,Evergine.Mathematics
       ValueByteArray: AAAAAAAAAAAAAAAAAAAAAA==
+    - Name: ShadowViewProjectionArray
+      Type: Evergine.Mathematics.Matrix4x4,Evergine.Mathematics
+      ValueByteArray: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
   Samplers:
-    - ID: 00000000-0000-0000-0000-000000000000
-      Name: null
-    - ID: 00000000-0000-0000-0000-000000000000
-      Name: null
-    - ID: 00000000-0000-0000-0000-000000000000
-      Name: null
+    - ID: 7048bdf1-905b-489d-ad35-6f999bbf2a69
+      Name: BaseColorSampler
+    - ID: 7048bdf1-905b-489d-ad35-6f999bbf2a69
+      Name: NormalSampler
+    - ID: 7048bdf1-905b-489d-ad35-6f999bbf2a69
+      Name: MetallicRoughnessSampler
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
@@ -110,6 +113,12 @@ MaterialInfo:
       Name: null
     - ID: 7d1e2792-2031-42bb-a67c-0dbd282be12a
       Name: IblDFGSampler
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
     - ID: 00000000-0000-0000-0000-000000000000
       Name: null
     - ID: 00000000-0000-0000-0000-000000000000
@@ -131,8 +140,14 @@ MaterialInfo:
       Name: null
     - ID: d81d459c-c433-4ee3-bfe5-b45fbce12736
       Name: IblDFGTexture
-    - ID: 82b952bd-7f49-4a11-a389-3c54ea9f62f2
-      Name: IBLRadianceTexture
-    - ID: 18168d6d-f749-421b-869b-515dfaa5721c
-      Name: IBLIrradianceTexture
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
+    - ID: 00000000-0000-0000-0000-000000000000
+      Name: null
 Profiles: {}
