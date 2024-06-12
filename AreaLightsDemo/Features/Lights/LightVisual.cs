@@ -1,13 +1,10 @@
 using AreaLightsDemo.Effects;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using Evergine.Common.Graphics;
 using Evergine.Components.Graphics3D;
 using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Framework.Graphics.Effects;
-using Evergine.Framework.Graphics.Materials;
 using Evergine.Framework.Services;
 
 namespace AreaLightsDemo.Features.Lights
@@ -15,7 +12,7 @@ namespace AreaLightsDemo.Features.Lights
     public abstract class LightVisual<T> : Behavior where T : Light
     {
         [BindService]
-        AssetsService assetsService;
+        AssetsService assetsService = null;
 
         [BindComponent(isExactType:false)]
         protected T Light;

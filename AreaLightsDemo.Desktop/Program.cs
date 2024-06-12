@@ -75,11 +75,11 @@ namespace AreaLightsDemo.Desktop
 		private static AudioDevice CreateAudioDevice()
         {
             AudioDevice audioDevice;
-            if (DeviceInfo.PlatformType == PlatformType.Windows)
+            if (OperatingSystemHelper.IsOSPlatform(PlatformType.Windows))
             {
                 audioDevice = new Evergine.XAudio2.XAudioDevice();
             }
-            else if (DeviceInfo.PlatformType == PlatformType.Linux || DeviceInfo.PlatformType == PlatformType.MacOS)
+            else if (OperatingSystemHelper.IsAnyOfOSPlatforms(new[] { PlatformType.Linux, PlatformType.MacOS }))
             {
                 audioDevice = new Evergine.OpenAL.ALAudioDevice();
             }
@@ -100,15 +100,15 @@ namespace AreaLightsDemo.Desktop
         private static GraphicsContext CreateGraphicsContext()
         {
             GraphicsContext graphicsContext;
-            if (DeviceInfo.PlatformType == PlatformType.Windows)
+            if (OperatingSystemHelper.IsOSPlatform(PlatformType.Windows))
             {
                 graphicsContext = new Evergine.DirectX11.DX11GraphicsContext();
             }
-            else if (DeviceInfo.PlatformType == PlatformType.Linux)
+            else if (OperatingSystemHelper.IsOSPlatform(PlatformType.Linux))
             {
                 graphicsContext = new Evergine.Vulkan.VKGraphicsContext();
             }
-            else if (DeviceInfo.PlatformType == PlatformType.MacOS)
+            else if (OperatingSystemHelper.IsOSPlatform(PlatformType.MacOS))
             {
                 graphicsContext = new Evergine.Metal.MTLGraphicsContext();
             }
