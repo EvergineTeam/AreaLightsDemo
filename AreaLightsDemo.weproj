@@ -44,12 +44,4 @@ Profiles:
     Name: UWP
     NonAlphaCompressionFormat: BC3_UNorm
     Platform: UWP
-  - AdditionalEffectTechniqueCombinations: null
-    AlphaCompressionFormat: R8G8B8A8_UNorm
-    CompileEffects: false
-    GraphicsBackend: DirectX11
-    LauncherType: Default
-    Name: Desktop
-    NonAlphaCompressionFormat: R8G8B8A8_UNorm
-    Platform: Undefined
 ResourcesPath: Content
