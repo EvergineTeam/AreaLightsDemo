@@ -26,11 +26,9 @@ Items:
         Id: fc88c1fe-37db-4f57-ba1b-7fee27c310d9
         IsEnabled: true
         MaxPitch: 1.49225652
-        MouseSensibility: 0.0299999993
         MoveSpeed: 5.0
         RotationSpeed: 5.0
         TouchMoveAndOrientationRatio: 0.5
-        TouchSensibility: 1.0
         UpdateOrder: 0.5
       - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
         Id: db451331-6362-4543-93e4-58c71b8d2341
