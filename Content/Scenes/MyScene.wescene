@@ -111,7 +111,6 @@ Items:
           B: 0.0
           G: 0.0
           R: 0.0
-        ShadowBias: 0.00499999989
         ShadowDistance: 80.0
         ShadowOpacity: 1.0
         SplitDistance:
@@ -707,7 +706,6 @@ Items:
                   R: 1.0
                 LuminousPower: 140.0
                 Radius: 0.100000001
-                ShadowBias: 0.00400000019
                 ShadowOpacity: 1.0
                 Temperature: 4000.0
               - !AreaLightsDemo.Features.Lights.SphereLightVisual,AreaLightsDemo
@@ -803,7 +801,6 @@ Items:
               R: 0.329113156
             LuminousPower: 60.0
             Radius: 0.280000031
-            ShadowBias: 0.00400000019
             ShadowOpacity: 1.0
             Temperature: 50000.0
           - !AreaLightsDemo.Features.Lights.DiskLightVisual,AreaLightsDemo
@@ -906,7 +903,6 @@ Items:
               G: 0.7667436
               R: 0.176774323
             LuminousPower: 60.0
-            ShadowBias: 0.00400000019
             ShadowOpacity: 1.0
             Temperature: 6500.0
             Width: 0.299999952
@@ -1052,7 +1048,6 @@ Items:
                   R: 1.0
                 LuminousPower: 70.0
                 Radius: 0.0400000289
-                ShadowBias: 0.00400000019
                 ShadowOpacity: 1.0
                 Temperature: 1500.0
               - !AreaLightsDemo.Features.Lights.TubeLightVisual,AreaLightsDemo
