@@ -2,7 +2,7 @@
 Packages:
   - Id: Evergine.Core
     LocalPath: null
-    Version: 2026.11.4.444-nightly
+    Version: 2026.11.5.670-nightly
 Parameters:
   MaxSkinningWeights: 4
   SparseMorphTargets: false
@@ -18,9 +18,9 @@ Profiles:
   - AdditionalEffectTechniqueCombinations: null
     AlphaCompressionFormat: BC3_UNorm
     CompileEffects: false
-    GraphicsBackend: DirectX12
-    LauncherType: DirectX12
-    Name: Windows.DirectX12
+    GraphicsBackend: DirectX11
+    LauncherType: DirectX11
+    Name: Windows.DirectX11
     NonAlphaCompressionFormat: BC3_UNorm
     Platform: Windows
   - AdditionalEffectTechniqueCombinations: null
