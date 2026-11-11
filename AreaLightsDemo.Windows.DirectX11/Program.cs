@@ -4,7 +4,7 @@ using Evergine.Framework;
 using Evergine.Framework.Graphics;
 using Evergine.Framework.Services;
 
-namespace AreaLightsDemo.Windows.DirectX12
+namespace AreaLightsDemo.Windows.DirectX11
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace AreaLightsDemo.Windows.DirectX12
             uint height = 720;
             WindowsSystem windowsSystem = new Evergine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("AreaLightsDemo - DX12", width, height);
+            var window = windowsSystem.CreateWindow("AreaLightsDemo - DX11", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
@@ -44,7 +44,7 @@ namespace AreaLightsDemo.Windows.DirectX12
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new Evergine.DirectX12.DX12GraphicsContext();
+            GraphicsContext graphicsContext = new Evergine.DirectX11.DX11GraphicsContext();
             graphicsContext.DefaultBufferUploaderSize = 128 * 1024 * 1024;
             graphicsContext.DefaultTextureUploaderSize = 512 * 1024 * 1024;
 

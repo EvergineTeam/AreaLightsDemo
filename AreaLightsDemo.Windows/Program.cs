@@ -18,7 +18,7 @@ namespace AreaLightsDemo.Windows
             uint height = 720;
             WindowsSystem windowsSystem = new Evergine.Forms.FormsWindowsSystem();
             application.Container.RegisterInstance(windowsSystem);
-            var window = windowsSystem.CreateWindow("AreaLightsDemo - DX11", width, height);
+            var window = windowsSystem.CreateWindow("AreaLightsDemo - DX12", width, height);
 
             ConfigureGraphicsContext(application, window);
 			
@@ -44,7 +44,7 @@ namespace AreaLightsDemo.Windows
 
         private static void ConfigureGraphicsContext(Application application, Window window)
         {
-            GraphicsContext graphicsContext = new Evergine.DirectX11.DX11GraphicsContext();
+            GraphicsContext graphicsContext = new Evergine.DirectX12.DX12GraphicsContext();
             graphicsContext.CreateDevice();
             SwapChainDescription swapChainDescription = new SwapChainDescription()
             {
